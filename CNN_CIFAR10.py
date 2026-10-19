@@ -1,13 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# ## Libraries Import and Environment Setup
-# 
-
-# In[2]:
-
-
-# TensorFlow / Keras — deep learning model banane ke liye
 import tensorflow as tf
 from tensorflow.keras import layers, models, callbacks
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -20,7 +11,7 @@ import seaborn as sns
 # Evaluation metrics
 from sklearn.metrics import classification_report, confusion_matrix
 
-# Reproducibility — har baar same results ke liye
+# Reproducibility
 import random
 SEED = 42
 np.random.seed(SEED)
